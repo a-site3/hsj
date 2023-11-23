@@ -1,0 +1,88 @@
+.red{
+    color: red;
+}
+section{
+    position: relative;
+    margin: 0 27px 340px 27px;
+}
+section .more1{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 50%;
+    bottom: -150px;
+    transform: translateX(-50%);
+
+}
+section .more2{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -110px;
+}
+section .more-left{
+    float: left;
+    width: 150px;
+    text-align: center;
+    height: 60px;
+    line-height: 55px;
+}
+section .more-right{
+    float: right;
+    text-align: center;
+    width: 150px;
+    background-color: #000;
+    color: white;
+    height: 60px;
+    line-height: 55px;
+}
+
+section .type1{
+    margin-top: 20px;
+    width: 50%;
+    margin-bottom: 55px;
+}
+section .type2{
+    width: 50%;
+    position: relative;
+}
+section .type1 .title span{
+    font-size: 41px;
+}
+section .innerImg{
+    width: 50%;
+    width: 100%;
+    height: calc(62.3vw / 2);
+    object-fit: cover;
+}
+section .competitions{
+    position: absolute;
+    right: -15px;
+    top: -5px;
+    width: 50%;
+}
+section .competitions li:first-child{
+    font-size: 41px;
+    height: 66px;
+}
+section .competitions li{
+    height: 140px;
+    font-size: 20px;
+    border-bottom: solid 1px #000;
+    width: 95%;
+    height: calc(51.3vw / 6);
+}
+section .competitions li:last-child{
+    border-bottom: none;
+}
+
+section .cpttNm, 
+section .company{
+    font-size: 20px;
+}
