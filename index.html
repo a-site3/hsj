@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+
     <link type="text/css" rel="stylesheet" href="styles/default.css">
     <link type="text/css" rel="stylesheet" href="styles/style.css">
+
+    <style>
+        .fTop {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .fBttm {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .row {
+            background-color: rgb(36, 35, 35);
+            border: 1px solid rgb(66, 66, 66) ;
+            color: white;
+        }
+        
+        .logo {
+            float: right;
+        }
+
+        .f_menu {
+            list-style: none;
+            display: flex;
+        }
+
+        .innerLink {
+            color: white;
+        }
+
+        .d_count span {
+            background-color: gray;
+            margin: 10px;
+        }
+    </style>
 </head>
+
 <body>
     <section>
         <div class="type1">
@@ -79,5 +120,51 @@
             </div>
         </ul>
     </section>
+
+    <!--footer start-->
+    <div class="row">
+        <article class="fTop clearFix">
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                 <ul class="f_menu">
+                    <li><a href="javascript:void(0);" class="innerLink" title="개인정보처리방침">개인정보처리방침</a></li>
+                    <li><a href="javascript:void(0);" class="innerLink">이용약관</a></li>
+                    <li><a href="javascript:void(0);" class="innerLink">홈페이지 이용문의</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="d_count">
+                    today<span>6,207</span>
+                    total<span>5,231,955</span>
+                </div>
+            </div>
+        </article>
+    </div>
+    <div class="row">
+        <article class="fBttm clearFix">
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <address class="address">
+
+
+                    04524 서울특별시 중구 세종대로 110, 전화번호 : 02) 120
+
+
+
+                    <p class="copyright">© Seoul Metropolitan Gov. All Right Reserved</p>
+                </address>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <figure class="logo"><img src="images/f_logo.png" alt="서울시로고" style="width: 195px;margin-right: 10px;">
+                    <a title="웹와치 홈페이지 바로가기_새창" href="http://webwatch.or.kr" target="_blank"
+                        style="margin-left: 6px;vertical-align: middle;">
+                        <img src="images/WA_Mark_pjseoul.png"
+                            alt="과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2023.10.21~2024.10.20"
+                            title="WA 품질인증 마크, 웹와치(WebWatch) 2023.10.21~2024.10.20" style="width: 100px;">
+                    </a>
+                </figure>
+            </div>
+        </article>
+    </div>
+    <!--footer end-->
 </body>
+
 </html>
