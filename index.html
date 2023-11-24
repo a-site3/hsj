@@ -3,12 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>프로젝트 서울</title>
 
     <link type="text/css" rel="stylesheet" href="styles/default.css">
     <link type="text/css" rel="stylesheet" href="styles/style.css">
 
     <style>
+        body {
+        font-family: 'Arial', sans-serif;
+        }
+        .top-links {
+            display: flex;
+            justify-content: flex-end;
+            padding: 0.5em 0;
+    
+            font-size: 0.9em;
+        }
+        .top-links a, .top-links a:visited {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+
+        }
+        .logo {
+            max-width: 300px; /* 로고 이미지의 최대 너비를 지정합니다. */
+            height: auto; /* 이미지의 높이를 자동으로 설정하여 비율을 유지합니다. */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav li {
+            padding: 0 15px;
+        }
+        nav a, nav a:visited {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .search-icon {
+            cursor: pointer;
+        }
+        .search-icon img {
+            width: 24px;
+            height: 24px;
+        }
+        .header-nav {
+            border-bottom: 2px solid #000; /* 가로선을 추가합니다 */
+        }
+
         .fTop {
             display: flex;
             align-items: center;
@@ -48,6 +99,28 @@
 </head>
 
 <body>
+    <div class="top-links">
+        <a href="#login">로그인</a>
+        <a href="#register">회원가입</a>
+        <a href="#kor">한국어</a>
+        <a href="#eng">ENG</a>
+    </div>
+    
+    <header>
+        <div class="header-container">
+            <img src="./images/topLogo.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about-us">ABOUT US</a></li>
+                    <li><a href="#competitions">COMPETITIONS</a></li>
+                    <li><a href="#archiving">ARCHIVING</a></li>
+                    <li><a href="#exhibitions">EXHIBITIONS</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <hr>
     <section>
         <div class="type1">
             <div class="title">
